@@ -72,6 +72,8 @@ class App extends Component {
       {name: "エトワール", race: "うさぎ"},
       {name: "うさぴょん", race: "うさぎ"},
       {name: "ミミちゃん", race: "うさぎ"},
+      {name: "おうまさん", race: "うま"},
+      {name: "イケアくん", race: "くま"},
     ];
     return list;
   }
@@ -191,8 +193,8 @@ class App extends Component {
         <table border="1">
           <thead>
             <tr>
-              <td width="200">なまえ</td>
-              <td width="200">種族</td>
+              <td width="200" style={{textAlign: "center"}}>なまえ</td>
+              <td width="200" style={{textAlign: "center"}}>種族</td>
             </tr>
           </thead>
           <tbody>
